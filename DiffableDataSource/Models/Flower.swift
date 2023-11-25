@@ -9,7 +9,7 @@
 import Foundation
 
 
-struct Flower: Identifiable, Hashable {
+class Flower: Identifiable, Hashable {
 
     let id = UUID()
     var name: String
@@ -22,6 +22,10 @@ struct Flower: Identifiable, Hashable {
 
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
+    }
+
+    static func == (lhs: Flower, rhs: Flower) -> Bool {
+        lhs.id == rhs.id && lhs.name == rhs.name
     }
 }
 
