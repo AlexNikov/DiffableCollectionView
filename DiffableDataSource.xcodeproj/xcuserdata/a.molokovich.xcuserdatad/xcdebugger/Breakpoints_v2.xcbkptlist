@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0EA35F25-BE60-40E1-BB73-E8BECD4184C1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACAB5B88-DA51-4AE0-9850-A754F04A9A1C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiffableDataSource/Controllers/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "makeDataSource()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACAB5B88-DA51-4AE0-9850-A754F04A9A1C - 1cc3d3b8009eadd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UICollectionView, Swift.String, Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UICollectionReusableView&gt; in DiffableDataSource.HomeViewController.makeDataSource() -&gt; UIKit.UICollectionViewDiffableDataSource&lt;DiffableDataSource.HomeViewController.Section, Swift.AnyHashable&gt;"
+                  moduleName = "DiffableDataSource"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.molokovich/Education/BasiciOSTutorial/15CollectionView/DiffableDataSource/DiffableDataSource/Controllers/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "ACAB5B88-DA51-4AE0-9850-A754F04A9A1C - 1cc3d3b8009eadd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UICollectionView, Swift.String, Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UICollectionReusableView&gt; in DiffableDataSource.HomeViewController.makeDataSource() -&gt; UIKit.UICollectionViewDiffableDataSource&lt;DiffableDataSource.HomeViewController.Section, Swift.AnyHashable&gt;"
+                  moduleName = "DiffableDataSource"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.molokovich/Education/BasiciOSTutorial/15CollectionView/DiffableDataSource/DiffableDataSource/Controllers/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "ACAB5B88-DA51-4AE0-9850-A754F04A9A1C - 1cc3d3b8009eadd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UICollectionView, Swift.String, Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UICollectionReusableView&gt; in DiffableDataSource.HomeViewController.makeDataSource() -&gt; UIKit.UICollectionViewDiffableDataSource&lt;DiffableDataSource.HomeViewController.Section, Swift.AnyHashable&gt;"
+                  moduleName = "DiffableDataSource"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.molokovich/Education/BasiciOSTutorial/15CollectionView/DiffableDataSource/DiffableDataSource/Controllers/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08D24EDD-ED9F-4F30-B931-813A4C3B80C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiffableDataSource/Controllers/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "makeDataSource()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "08D24EDD-ED9F-4F30-B931-813A4C3B80C4 - 1cc3d3b8009eaced"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UICollectionView, Swift.String, Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UICollectionReusableView&gt; in DiffableDataSource.HomeViewController.makeDataSource() -&gt; UIKit.UICollectionViewDiffableDataSource&lt;DiffableDataSource.HomeViewController.Section, Swift.AnyHashable&gt;"
+                  moduleName = "DiffableDataSource"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.molokovich/Education/BasiciOSTutorial/15CollectionView/DiffableDataSource/DiffableDataSource/Controllers/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "2468">
+               </Location>
+               <Location
+                  uuid = "08D24EDD-ED9F-4F30-B931-813A4C3B80C4 - 1cc3d3b8009eaf27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UICollectionView, Swift.String, Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UICollectionReusableView&gt; in DiffableDataSource.HomeViewController.makeDataSource() -&gt; UIKit.UICollectionViewDiffableDataSource&lt;DiffableDataSource.HomeViewController.Section, Swift.AnyHashable&gt;"
+                  moduleName = "DiffableDataSource"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.molokovich/Education/BasiciOSTutorial/15CollectionView/DiffableDataSource/DiffableDataSource/Controllers/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "2164">
+               </Location>
+               <Location
+                  uuid = "08D24EDD-ED9F-4F30-B931-813A4C3B80C4 - 263bfeff3c3547ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UICollectionView, Swift.String, Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UICollectionReusableView&gt; in DiffableDataSource.HomeViewController.makeDataSource() -&gt; UIKit.UICollectionViewDiffableDataSource&lt;Swift.String, Swift.AnyHashable&gt;"
+                  moduleName = "DiffableDataSource"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.molokovich/Education/BasiciOSTutorial/15CollectionView/DiffableDataSource/DiffableDataSource/Controllers/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "2164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0936EB9D-2709-455B-A001-045D907213F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiffableDataSource/Controllers/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "makeDataSource()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F43DB14A-6C1C-4CD5-82F7-6D605DA89EFE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiffableDataSource/Controllers/Home/Cell/HomeCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79619701-C986-47B9-9D71-AD882EC2C246"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiffableDataSource/Controllers/Home/Cell/HomeCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "prepareForReuse()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
