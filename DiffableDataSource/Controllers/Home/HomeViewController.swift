@@ -56,7 +56,7 @@ class HomeViewController: UIViewController {
     let dataSource = DataSource(
       collectionView: collectionView,
       cellProvider: { (collectionView, indexPath, item) -> UICollectionViewCell? in
-          if let flower = item as? Flower {
+          if let flower = (item as? FlowerWrap)?.data {
               let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? HomeCell
               print("\(indexPath) - \(flower.id) - \(flower.name)")
               cell?.nameLabel.text = flower.name
@@ -122,7 +122,7 @@ class HomeViewController: UIViewController {
       snapshot.appendSections(sections)
 
       for section in newDataSource {
-          snapshot.appendItems(section.items, toSection: section.type.title)
+          snapshot.appendItems(section.items.compactMap({ FlowerWrap.init(name: $0.name, imageName: $0.imageName) }), toSection: section.type.title)
       }
       dataSource.apply(snapshot, animatingDifferences: false)
   }

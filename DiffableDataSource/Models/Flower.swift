@@ -9,7 +9,18 @@
 import Foundation
 
 
-struct Flower: Identifiable, Hashable {
+struct FlowerWrap: Hashable {
+
+    var id = UUID()
+    var data: Flower
+
+    init(name: String, imageName: String) {
+        self.data = Flower(name: name, imageName: imageName)
+    }
+
+}
+
+class Flower: Hashable {
 
     let id = UUID()
     var name: String
@@ -22,6 +33,11 @@ struct Flower: Identifiable, Hashable {
 
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
+        hasher.combine(name)
+    }
+
+    static func == (lhs: Flower, rhs: Flower) -> Bool {
+        lhs.id == rhs.id && lhs.name == rhs.name
     }
 }
 
